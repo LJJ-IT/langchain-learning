@@ -1,0 +1,17 @@
+[project]
+name = "langchain-learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alibabacloud-oss-v2>=1.3.0",
+    "fastapi>=0.136.3",
+    "langchain>=1.3.2",
+    "langchain-deepseek>=1.0.1",
+    "langchain-openai>=1.2.2",
+    "langchain-tavily>=0.2.18",
+    "langgraph-checkpoint-sqlite>=3.1.0",
+    "langgraph-cli[inmem]>=0.4.26",
+    "python-dotenv>=1.2.2",
+]
